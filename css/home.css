@@ -1,0 +1,34 @@
+.page {
+  flex: 1 1 auto;
+}
+
+.main-slider__body {
+  height: 100%;
+}
+.main-slider__img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.main-slider__image {
+  height: 100vh !important;
+  overflow: hidden;
+}
+.main-slider__bg {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.main-slider__text {
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.main-slider__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
